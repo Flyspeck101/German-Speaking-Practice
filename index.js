@@ -1,22 +1,5 @@
-(function main(questionsText) {
-  const questions = questionsText.split("\n");
-  var questionsThisRound = questions;
-  var timer = 0;
-  var getQuestion = function() {
-    return questionsThisRound.splice(Math.floor(Math.random()*questionsThisRound.length), 1);
-  }
-  var round = function() {
-    document.getElementById("round").style.display = "none";
-    document.getElementById("next").style.display = "block";
-    document.getElementById("question").innerText = getQuestion();
-    setInterval(function() { timer++; }, 10); 
-  }
-  var next = function() {
-    document.getElementById("timer").innerText = timer/100;
-    timer = 0;
-    document.getElementById("question").innerText = getQuestion();
-  }
-})(`Wie heißt du?
+
+var questionsText = (`Wie heißt du?
 Wo wohnst du?
 Wohnst du in COUNTRY?
 Wohnst du in SUBURB?
@@ -100,3 +83,22 @@ Hat er/sie ein Haustier?
 Welche Farbe ist ihr/ihre or sein/seine ANIMAL?
 Wie alt ist ihr/ihre or sein/seine ANIMAL?
 Wie ist ihr/ihre or sein/seine ANIMAL? Or Beschreibe ihr/ihre/ihren or sein/seine/seinen ANIMAL.`);
+
+
+  const questions = questionsText.split("\n");
+  var questionsThisRound = questions;
+  var timer = 0;
+  var getQuestion = function() {
+    return questionsThisRound.splice(Math.floor(Math.random()*questionsThisRound.length), 1);
+  }
+  var round = function() {
+    document.getElementById("round").style.display = "none";
+    document.getElementById("next").style.display = "block";
+    document.getElementById("question").innerText = getQuestion();
+    setInterval(function() { timer++; }, 10); 
+  }
+  var next = function() {
+    document.getElementById("timer").innerText = timer/100;
+    timer = 0;
+    document.getElementById("question").innerText = getQuestion();
+  }
