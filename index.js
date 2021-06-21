@@ -88,16 +88,16 @@ Wie ist ihr/ihre or sein/seine ANIMAL? Or Beschreibe ihr/ihre/ihren or sein/sein
   const questions = questionsText.split("\n");
   var questionsThisRound = questions;
   var timer = 0;
-  var getQuestion = function() {
+  function getQuestion() {
     return questionsThisRound.splice(Math.floor(Math.random()*questionsThisRound.length), 1);
   }
-  var round = function() {
+  function round() {
     document.getElementById("round").style.display = "none";
     document.getElementById("next").style.display = "block";
     document.getElementById("question").innerText = getQuestion();
     setInterval(function() { timer++; }, 10); 
   }
-  var next = function() {
+  function next() {
     document.getElementById("timer").innerText = timer/100;
     timer = 0;
     document.getElementById("question").innerText = getQuestion();
