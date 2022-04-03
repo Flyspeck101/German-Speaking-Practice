@@ -46,5 +46,5 @@ Findest du das teuer oder billig?`);
     document.getElementById("timer").innerText = "You took " + timer/100 + " seconds to answer the previous question;
     timer = 0;
     document.getElementById("question").innerText = getQuestion();
-    if (document.getElementById("question").innerText == "") document.getElementById("question").innerText = "You finished all the questions";
+    if (!document.getElementById("question").innerText) document.getElementById("question").innerText = "You finished all the questions";
   }
