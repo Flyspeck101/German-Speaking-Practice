@@ -1,88 +1,33 @@
 
-var questionsText = (`Wie heißt du?
-Wo wohnst du?
-Wohnst du in COUNTRY?
-Wohnst du in SUBURB?
-Was magst du?
-Magst du NOUN?
-Was magst du nicht?
-Was hasst du?
-Hasst du NOUN?
-Wie ist deine Handynummer?
-Wie heisst dein Freund?
-Wo wohnt er?
-Wohnt er in SUBURB  / COUNTRY?
-Was mag er?
-Mag er NOUN?
-Was mag er nicht?
-Was hasst er?
-Hasst er NOUN?
-Wie ist er? (use an adjective or several to describe)
-Wie heisst deine Freundin?
-Wo wohnt sie?
-Wohnt sie in SUBURB  / COUNTRY?
-Was mag sie?
-Mag sie NOUN?
-Was mag sie nicht?
-Was hasst sie?
-Hasst sie NOUN?
-Wie ist sie? (use an adjective or several to describe)
-Wie heißen deine Freunde?
-Kannst du sie beschreiben (describe)?
-Wie geht’s?
-Wie heisst ________ auf Deutsch?
-Wie heisst _________ auf Englisch?
-Wie schreibt man _______________?
-Wie alt bist du?
-Wie alt ist dein Freund?
-Wie alt ist deine Freundin?
-Wie alt sind deine Freunde?
-Wer ist das? (you could be shown a picture)
-Wie ist dein Vorname?
-Wie ist dein Familienname?
-Wie ist ihr Vorname/Familienname?
-Wie ist sein Vorname/Familienname?
-Bist du in Klasse ____________?
-Ist er/sie in Klasse __________?
-Spielst du SPORT ?
-Spielt er SPORT ?
-Spielt sie SPORT ?
-Bist du ein Angeber?
-Ist NAME ein Angeber?
-Bitte beschreib (describe) deine Familie.
-Hast du Geschwister?
-Wie viele Geschwister hast du?
-Hast du Eltern?
-Hast du einen Bruder?
-Hast du eine Schwester?
-Wie heißt dein/deine FAMILY MEMBER?
-Wie heißen deine ____________ (plural) ?
-Bist du Einzelkind?
-Hast du einen Zwilling?
-Bitte beschreib (describe) seine/ihre Familie.
-Hat  er/sie Geschwister?
-Wie viele Geschwister hat er/sie?
-Hat er/sie Eltern?
-Hat er/sie einen Bruder?
-Hat er/sie eine Schwester?
-Wie heißt sein/seine or ihr/ihre FAMILY MEMBER?
-Wie heißen seine/ihre ____________ (plural)?
-Welche Farbe hat NOUN?
-Welche Farben haben NOUN (plural)?
-Welche Farben hat die Fahne von COUNTRY?
-Woher kommst du?
-Kommst du aus COUNTRY?
-Woher kommt er/sie or der/die/das NOUN?
-Woher kommen sie?
-Hast du ein Haustier?
-Hast du Haustiere?
-Hast du ein/eine ANIMAL?
-Wie ist der/die/das or dein/deine ANIMAL?
-Hat er/sie ein/eine ANIMAL?
-Hat er/sie ein Haustier?
-Welche Farbe ist ihr/ihre or sein/seine ANIMAL?
-Wie alt ist ihr/ihre or sein/seine ANIMAL?
-Wie ist ihr/ihre or sein/seine ANIMAL? Or Beschreibe ihr/ihre/ihren or sein/seine/seinen ANIMAL.`);
+var questionsText = (`Wo wohnst du?
+In welcher Straße wohnst du?
+Was gibt es alles in deinem Vorort?
+Was kann man in deinem Wohnort alles machen?
+Kann man in deinem Wohnort ACTIVITY?
+Wo ist der/die/das PLACE in deinem Wohnort?
+Gibt es eine/einen PLACE in deinem Wohnort?
+Wohnst du in der Nähe von einem/einer PLACE?
+Wo wohnt dein Freund?
+Wie findest du deinen Wohnort?
+Wohnst du gern in deinem Wohnort? Warum?
+Wie kommst du zur Schule?
+Wie weit ist es von von deinem Haus bis zu Schule?
+Wie lange dauert es von deinem Haus bis zu deiner Schule?
+Wie kommst du zur/zum PLACE? 
+Wie lange dauert das? 
+Wie viele Kilometer sind das?
+Wie lange brauchst du von PLACE  bis zu PLACE?
+Wie weit ist es von PLACE bis zu PLACE?
+Was machst du gern im SEASON? (Frühling, Sommer, Herbst, Winter)?
+Was machst du gern am ................... (Wochenende, Morgen, Nachmittag, Abend, …..tag)?
+Wohin gehst du am ...................... (Wochenende, Morgen, Nachmittag, Abend, …..tag)?
+Kannst/Darfst/Willst/Möchtest ACTIVITY + VERB?
+Was isst und trinkst du gern?
+Was isst du zum Frühstück?
+Was isst du zum Mittagessen?
+Nimmst du es von zuHause mit oder kaufst du es in der Schule?
+Wieviel kostet in deiner Schule DRINK/FOOD?
+Findest du das teuer oder billig?`);
 
 
   const questions = questionsText.split("\n");
