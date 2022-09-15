@@ -1,33 +1,36 @@
 
-var questionsText = (`Wo wohnst du?
-In welcher Straße wohnst du?
-Was gibt es alles in deinem Vorort?
-Was kann man in deinem Wohnort alles machen?
-Kann man in deinem Wohnort ACTIVITY?
-Wo ist der/die/das PLACE in deinem Wohnort?
-Gibt es eine/einen PLACE in deinem Wohnort?
-Wohnst du in der Nähe von einem/einer PLACE?
-Wo wohnt dein Freund?
-Wie findest du deinen Wohnort?
-Wohnst du gern in deinem Wohnort? Warum?
-Wie kommst du zur Schule?
-Wie weit ist es von von deinem Haus bis zu Schule?
-Wie lange dauert es von deinem Haus bis zu deiner Schule?
-Wie kommst du zur/zum PLACE? 
-Wie lange dauert das? 
-Wie viele Kilometer sind das?
-Wie lange brauchst du von PLACE  bis zu PLACE?
-Wie weit ist es von PLACE bis zu PLACE?
-Was machst du gern im SEASON? (Frühling, Sommer, Herbst, Winter)?
-Was machst du gern am ................... (Wochenende, Morgen, Nachmittag, Abend, …..tag)?
-Wohin gehst du am ...................... (Wochenende, Morgen, Nachmittag, Abend, …..tag)?
-Kannst/Darfst/Willst/Möchtest ACTIVITY + VERB?
-Was isst und trinkst du gern?
-Was isst du zum Frühstück?
-Was isst du zum Mittagessen?
-Nimmst du es von zuHause mit oder kaufst du es in der Schule?
-Wieviel kostet in deiner Schule DRINK/FOOD?
-Findest du das teuer oder billig?`);
+var questionsText = (`Wohnst du in einer Wohnung oder einem Haus?
+Kannst du dein Haus /deine Wohnung beschreiben?
+Wo ist dein Zimmer? 
+Was ist neben, unter, hinter … deinem Zimmer? 
+Ist dein Zimmer im ersten/zweiten… Stock?
+Was gibt es alles in deinem Zimmer? 
+Was machst du normalerweise in deinem Zimmer?
+Was kann man aus deinem Fenster sehen?
+Hast du ein Lieblingszimmer?
+Welche Zimmer sind im ersten/zweiten Stock?
+Hast du einen Keller/Dachboden? Was ist im Keller/Dachboden?
+Welches Zimmer ist unter/neben/vor/hinter dem/der ...................... (room in your house)?
+Musst du im Haushalt helfen? Was musst du machen?
+Wie oft musst du ............... (a chore)?
+Was ist leichter, …..oder ………?
+Was ist besser, …..oder ………? 
+Was macht dein Vater/ deine Schwester?/ dein Bruder im Haushalt?
+Welche Geschäfte gibt es in deinem Wohnort?
+Gibt es in deinem Wohnort ein/eine ..........................?
+Wo ist der/die/das .......................in deinem Wohnort?
+Welchen Teilzeitjob würdest du gerne haben?
+Erzähl mir von deinem Teilzeitjob! Wie verdienst du Geld?
+Wieviel verdienst du pro Stunde/Woche/Monat?
+Was machst du mit deinem Geld/Taschengeld? Wofür gibst du dein Geld aus?
+Sparst du auch? 
+Wofür sparst du?
+Wofür gibst du am meisten aus? 
+Hat dein Freund einen Teilzeitjob? Was macht er?
+Was darf man in Australien/Deutschland machen / nicht machen?
+Was darfst du zu Hause machen / nicht machen?
+Was darfst du in deiner Schule machen / nicht machen?
+Wie findest du den/die/das ………………….?`);
 
 
   const questions = questionsText.split("\n");
